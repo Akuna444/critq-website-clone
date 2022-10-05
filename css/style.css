@@ -1,0 +1,388 @@
+:root {
+  --color-primary: #fa005e;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 45pt !important;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30pt;
+  margin: 0;
+}
+
+h4 {
+  font-size: 12.5pt;
+  margin: 2rem 0 2rem 0;
+}
+
+a {
+  font-size: 10pt;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content-footer_link {
+  color: var(--color-primary);
+  font-size: 11pt;
+  text-transform: uppercase;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  width: 100vw;
+  height: 70rem;
+  border: 2px solid grey;
+  padding: 1rem;
+  color: #fff;
+  background-image: url(../img/header/hero.png);
+}
+
+.header-center {
+  margin-top: 145px;
+}
+
+.header-paragraph {
+  padding: 0 40rem 0 40rem;
+  text-align: center;
+  font-size: 14pt;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Button */
+.btn {
+  width: 270px;
+  height: 80px;
+  color: #fff;
+  font-size: 22pt;
+  background: none;
+  border-radius: 40px;
+  border: 2px solid white;
+}
+
+.btn:hover {
+  background: var(--color-primary);
+  border: 0;
+}
+/* Navigation Button */
+.btn-nav {
+  height: 42px;
+  width: 130px;
+  font-size: 14pt;
+  color: #fff;
+  background: none;
+  border: 0;
+}
+.btn-nav:hover {
+  background: var(--color-primary);
+  border-radius: 40px;
+}
+
+/* Subhero */
+.subhero {
+  width: 100vw;
+  height: 69rem;
+}
+
+.subhero-header {
+  width: 100vw;
+  height: 240px;
+}
+
+.subhero-main__detail {
+  padding: 5rem;
+  text-align: center;
+}
+
+.subhero-main {
+  margin: 0 10rem 0 10rem;
+}
+
+.subhero-paragraph {
+  font-size: 13pt;
+  margin: 5px 0 5px 0;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+}
+
+.grid-1x3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-1x2_unequal {
+  grid-template-columns: 70fr 30fr;
+}
+
+.grid-2x1 {
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 20px;
+}
+
+.grid-2x3 {
+  grid-template: repeat(2, 115px) / repeat(3, 120px);
+  gap: 10px;
+}
+.grid-2x4 {
+  grid-template-rows: repeat(2, 235px);
+  grid-template-columns: repeat(4, 285px);
+  column-gap: 20px;
+  row-gap: 100px;
+}
+
+/* Galleries */
+
+.galleries {
+  width: 100vw;
+  height: 120rem;
+  background: var(--color-primary);
+}
+
+.galleries-header {
+  color: #fff;
+}
+.galleries-main {
+  width: 1250px;
+  height: 690px;
+  margin-top: 40px;
+}
+
+.galleries-content {
+  width: 285px;
+  height: 310px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 1.5rem black;
+}
+
+.galleries-main_footer {
+  padding: 20px 0 0 20px;
+  align-items: center;
+}
+
+.galleries-main_footer > h4 {
+  margin: 0;
+}
+
+.galleries-paragraph {
+  font-size: 10pt;
+  margin: 5px 0 5px 0;
+}
+.galleries-img {
+  width: 285px;
+  height: 235px;
+}
+
+.galleries-footer {
+  color: #fff;
+}
+
+.galleries .btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.reviewers {
+  width: 100vw;
+  height: 108rem;
+}
+
+.reviewers-header {
+  width: 100vw;
+  height: 235px;
+}
+
+.reviewers-main {
+  width: 1200px;
+  height: 560px;
+}
+
+.reviewers-primary_content {
+  width: 385px;
+  height: 550px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 1.5rem black;
+}
+
+.reviewers-secondary_content {
+  width: 385px;
+  height: 265px;
+  box-shadow: 0 0 1.5rem black;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.reviewers-img_primary {
+  width: 385px;
+  height: 310px;
+  object-fit: cover;
+}
+
+.reviewers-img_secondary {
+  width: 385px;
+  height: 170px;
+  object-fit: cover;
+}
+
+.reviewers-main h4 {
+  margin: 5px 0 5px 0;
+}
+
+.reviewers-secondary_content .reviewers-star {
+  margin-bottom: 15px;
+}
+
+.reviewers-main_footer {
+  margin-left: 10px;
+}
+
+.reviewers-star {
+  display: flex;
+  align-items: center;
+}
+
+.reviewers-stars_text {
+  margin: 0;
+  padding-left: 10px;
+  font-size: 12pt;
+}
+
+.reviewers-paragraph {
+  height: 90px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  line-height: 30px;
+  font-size: 12pt;
+}
+
+.reviewers h2 {
+  margin: 20px 0 20px 0;
+}
+
+.reviewers .btn {
+  color: #000;
+  border: 2px solid #000;
+}
+
+.reviewers .btn:hover {
+  color: #fff;
+  border: 0;
+}
+
+.reviewers-footer {
+  margin-top: 30px;
+}
+
+/* Footer */
+.footer {
+  width: 100vw;
+  height: 54rem;
+  background: #1a1c28;
+  color: #fff;
+}
+
+.footer-container {
+  width: 1220px;
+  height: 380px;
+}
+
+.footer-content {
+  width: 365px;
+  height: 100%;
+}
+
+.footer-header {
+  font-size: 15pt;
+  border-bottom: 2px solid #31333e;
+  margin-bottom: 30px;
+}
+
+.footer-paragraph {
+  width: 100%;
+  line-height: 30px;
+  font-size: 12pt;
+  margin: 20px 0 40px 0;
+}
+
+.footer-img {
+  width: 120px;
+  height: 115px;
+  object-fit: cover;
+}
+
+.tweet-container {
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tweet-content {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  margin-left: 40px;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+.tweet-icon {
+  width: 31px;
+  height: 31px;
+  position: absolute;
+  top: 5%;
+  left: -12%;
+}
+
+.tweet-container .footer-paragraph {
+  margin: 0%;
+  line-height: 20px;
+}
+
+.bottom-nav {
+  background: #141622;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8pt;
+  color: #fff;
+}
+
+.bottom-nav .btn-nav {
+  font-size: 10pt;
+}
+
+.bottom-nav .btn-nav:hover {
+  background: none;
+  color: var(--color-primary);
+}
