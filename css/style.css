@@ -2,7 +2,7 @@
   --color-primary: #fa005e;
 }
 
-html {h
+html {
   font-size: 62.5%;
 }
 
@@ -57,6 +57,7 @@ a:hover {
   padding: 1rem;
   color: #fff;
   background-image: url(../img/header/hero.jpg);
+  background-repeat: no-repeat;
 }
 
 .header-center {
