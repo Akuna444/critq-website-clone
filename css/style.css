@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #31333e;
+}
+
 .content-footer_link {
   color: var(--color-primary);
   font-size: 11pt;
@@ -199,6 +203,11 @@ nav {
 .galleries-img {
   width: 285px;
   height: 235px;
+  transition: all 400ms ease;
+}
+
+.galleries-img:hover {
+  transform: scale(1.1);
 }
 
 .galleries-footer {
@@ -245,12 +254,19 @@ nav {
   width: 385px;
   height: 310px;
   object-fit: cover;
+  transition: all 400ms ease;
 }
 
 .reviewers-img_secondary {
   width: 385px;
   height: 170px;
   object-fit: cover;
+  transition: all 400ms ease;
+}
+
+.reviewers-img_primary:hover,
+.reviewers-img_secondary:hover {
+  transform: scale(1.06);
 }
 
 .reviewers-main h4 {
@@ -337,6 +353,11 @@ nav {
   width: 120px;
   height: 115px;
   object-fit: cover;
+  transition: all 400ms ease;
+}
+
+.footer-img:hover {
+  transform: scale(1.1);
 }
 
 .tweet-container {
